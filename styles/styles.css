@@ -46,3 +46,17 @@
     font-style: normal;
     font-size: 14px;
 }
+.button-section {
+    display: flex;
+    flex-direction: column;
+}
+.button-section button{
+    height: 48px;
+    margin: 10px 0 ;
+    border-radius: 10px;
+    background-color: var(--Grey-700);
+    color: var(--White);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
