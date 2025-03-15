@@ -7,11 +7,25 @@
     --Grey-900: hsl(0, 0%, 8%);
 }
 *{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
+    font-optical-sizing: 0 auto;
+    
 }
 .profile{
     background: var(--Grey-800) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px 36px;
+}
+body{
+    background: var(--Grey-900);
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -59,4 +73,5 @@
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
+    border: 0;
 }
